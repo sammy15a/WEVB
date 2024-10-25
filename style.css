@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:inherit ;
+    color: aliceblue;
+}
+body{
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+background-size: cover;
+background-position: center;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo
+{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: 1s;
+
+}
+.navbar a:hover{
+    color: aqua ;
+}
+
+h1{
+    color: antiquewhite;
+    padding : 300px 200px;
+    text-align: center;
+   font-size: 2cm;
+}
+img{
+    image-resolution: 1080p;
+    padding: 50px 50px;
+    text-align: center;
+    
+    
+}
+
+.wrapper{
+    display: flex;
+}
